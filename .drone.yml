@@ -15,6 +15,7 @@ steps:
     path: /app
   commands:
   - npm install
+  - npm run build
 - name: test
   image: node
   volumes:
